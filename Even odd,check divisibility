@@ -1,0 +1,22 @@
+num=int(input("Enter a no to check"))
+
+check=int(input("Enter another no to divide"))
+
+if num%2==0:
+
+    print(num,"is even")
+    
+    if num%4==0:
+    
+      print(num,"is also multiple of 4")
+      
+else:
+    print(num,"is odd")
+    
+if num%check==0:
+
+    print(num,"divided by",check,"evenly")
+    
+else:
+
+    print(num,"not divided by ",check,"evenly")
