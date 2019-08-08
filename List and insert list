@@ -1,0 +1,13 @@
+n=int(input("Enter a no"))
+
+list=[]    #empty list
+
+a=[1,1,2,3,5,8,13,21,34,55,89]
+
+for i in range(len(a)):
+
+    if a[i]<n:
+    
+        list.insert(i,a[i])
+        
+print(list)
